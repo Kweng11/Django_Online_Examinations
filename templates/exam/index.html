@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+{% load widget_tweaks %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      body {
+   
+
+
+}
+<style>
+
+  .jumbotron{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url("static/image/wal.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 600px;
+    weidth:500px;
+  }
+
+
+</style>
+</head>
+<body>
+  {% include "exam/navbar.html" %}
+<br>
+<br>
+<br>
+<br>
+<section id="section-jumbotron" class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center">
+  <div class="container text-center">
+    <h2 class="display-3 text-info"> Welcome Minsuans!! </h2>
+    <p class="display-4 d-none d-sm-block">Attend your examinations online!</p>
+    <p class="lead">Sign Up now to start your first online examination</p>
+
+  
+    <p><strong> Login Here:</strong></p>
+    <a href="/student/studentsignup" class="btn btn-lg btn-info" style="padding-right: 35px; border-radius: 0%;"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Sign Up as Student</a>
+    
+    <br><br><br>
+  </div>  
+</section>
+  {% include "exam/footer.html" %}
+
+
+</body>
+
+</html>
